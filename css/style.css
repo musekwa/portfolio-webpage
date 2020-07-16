@@ -1,14 +1,43 @@
 
+body {
+    background-color: slategrey;
+}
+
 
 #navbar{
-    position: sticky;
+    position: fixed;
     top: 0px;
     left: 0px;
-    background-color: aqua;
-    height: 50px;
+    background-color: slategrey;
+    height: 100px;
+    width: 100vw;
+    text-align: right;
+}
+
+.nav-link {
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 #welcome-section {
     height: 100vh;
-    background-color: bisque;
+    width: 100%;
+    text-align: center;
+    background-color: slategrey;
+}
+
+#developer-img {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+}
+
+#projects {
+    background-color: cadetblue;
+    height: 80vh;
+    width: 100%;
+    margin: auto;
 }
