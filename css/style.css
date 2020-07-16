@@ -1,0 +1,14 @@
+
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: aqua;
+    height: 50px;
+}
+
+#welcome-section {
+    height: 100vh;
+    background-color: bisque;
+}
