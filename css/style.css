@@ -96,7 +96,32 @@ a {
     margin-bottom: 20px;
  }
 
+ #contacts, #my-contacts span {
+     color: white;
+ }
 
+ #my-contacts {
+     display: flex;
+     align-items: center;
+     width: 60%;
+     margin: auto;
+ }
+
+ .cont {
+    flex-wrap: wrap;
+    flex-basis: 20%;
+ }
+
+ .material-icons, .fa { color: rgba(255, 255, 255, 1); }
+
+ #footer {
+     text-align: center;
+     color: white;
+     background-color: cadetblue;
+     height: 80px;
+     width: 100%;
+     margin: auto;
+ }
 
 @media only screen and (max-width: 1200px){
 
@@ -110,6 +135,16 @@ a {
     #projects {
         height: auto;
     }
+
+    #my-contacts {
+        width: 80%;
+        flex-direction: row;
+        
+     }
+     .cont {
+        flex-wrap: wrap;
+        margin: auto;
+     }
 
 }
 
@@ -131,5 +166,15 @@ a {
     #project-header {
         font-size: 24px;
     }
+
+    #my-contacts {
+        width: 50%;
+        flex-direction: column;
+    }
+
+     .cont {
+         width: 50%;
+         margin-top: 20px;
+     }
 
 }
